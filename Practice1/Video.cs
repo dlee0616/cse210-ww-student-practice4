@@ -34,10 +34,12 @@ namespace Final
     {
         return _author;
     }
+    //set length 
     public void SetLength(int length)
     {
         _length = length;
     }
+    //return length 
     public int GetLength()
     {
         return _length;

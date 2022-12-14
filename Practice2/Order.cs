@@ -15,14 +15,17 @@ namespace Practice2
         {
             _shippingLabel = ShippingLabel;
         }
+        //return shipping label
         public void GetShippingLabel()
         {
             return _shippingLabel;
         }
+        //set packing label
         public void SetPackingLabel(string PackingLabel)
         {
             _packingLabel = PackingLabel; 
         }
+        //return packing label 
         public void GetPackingLabel()
         {
             return _packingLabel;
